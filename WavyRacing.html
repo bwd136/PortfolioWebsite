@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="assets/images/logofavicon.png" type="image/png">
     <link rel="stylesheet" href="css/css-reset.css">
     <link rel="stylesheet" href="css/hamburger.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
 </head>
@@ -48,11 +49,12 @@
 
 
 <div class="container">
-    
+    <div data-aos="fade-up">
     <div class="bigtitle">
         <h1>Wavy Racing Livery</h1>
     </div>
-    
+    </div>
+    <div data-aos="fade-up">
     <div class="projectdetails">
         <div class="col">
             <h3>Project Timeline:</h3>
@@ -69,31 +71,32 @@
         <p>3D Modelling</p>
         </div>
     </div>
+    </div>
 </div>
 
 
 <div class="container-projects">
-
+    <div data-aos="fade-up">
 <div class="writing">
     <h1>Intro</h1>
     <p>Have you ever looked back and discovered that you started listening to the music that you do because of the album art? This scenario is exactly how I came to discover an entire genre of music called city pop which is 80's Japanese pop. </p> 
 
        <p> Keeping that in mind, one of my first projects of my final term at school was an assignment that wanted us to pick a piece of design or artwork that made us say “dang I wish I made that” and create something inspired by it. The goal is to create something that can stand on its own but when the inspiration is put beside it, the influence is recognizable.</p>
 </div>
-
 </div>
-
+</div>
+<div data-aos="fade-up">
 <div class="question">
     <div class="container-projects">
     <h1>How to translate an existing visual style onto a new medium?</h1>
     </div>
 </div>
-
+</div>
 
 
 <div class="container-projects">
     
-    
+    <div data-aos="fade-up"> 
     <div class="writing">
         <h1>Research</h1>
         <p>I knew 2 things I wanted to do for this project beforehand, a car wrap as the final outcome and to use city pop as the main inspiration for the graphics. I decided to pick the illustrations by Japanese illustrator Eizin Suzuki as the inspiration. He did many of the cover art for the Tatsuro Yamishita albums that first got me into this genre. While analyzing a few of Eizin Suzuki’s illustrations I noticed a couple of things in his style: </p>
@@ -104,24 +107,26 @@
             <img src="assets/images/WavyRacing/research.jpg" alt="">
             
     </div>
+    </div>
     
-    
-    
+    <div data-aos="fade-up">
     <div class="writing">
         <h1>Ideation</h1>
         <p>After researching I decided to do the livery on a Porsche not only because of Eizin Suzuki’s illustrations but it is the appropriate car to wear a livery no matter if it is the race car or a street car. I decided to do my favourite Porsche, a 997 generation 911 GT3 RS Cup as it is the generation of Porsche race car I grew up watching as a kid. For the actual graphics, waves were the best to represent the beach theme while also being a dynamic shape that flows with the car body that can still be seen at high speeds. </p>
             <img src="assets/images/WavyRacing/FirstSketch.jpg" alt="">
             
     </div>
+    </div>
 
-
+    <div data-aos="fade-up">
     <div class="writing">
         <h1>The Drafts</h1>
         <p>Since this is my first time UV mapping in 3D, I tested out how to apply the graphics on the 3D model and designed the graphics in the separated UV map view at first. I later realize it was hard as I could not see the whole picture, leading me to do a quick illustration of the car in top, side, left and right views.</p>
         <img src="assets/images/WavyRacing/firstdraft.png" alt="">
             <img src="assets/images/WavyRacing/uvdesign.png" alt="">
     </div>
-
+    </div>
+    <div data-aos="fade-up">
     <div class="writing">
         <h1>Final Render Set</h1>
         <img src="assets/images/WavyRacing/final(1).jpg" alt="">
@@ -130,7 +135,8 @@
         <img src="assets/images/WavyRacing/final(4).jpg" alt="">
         <img src="assets/images/WavyRacing/final(5).jpg" alt="">
         </div>
-
+    </div>
+    <div data-aos="fade-up">
         <div class="writing">
             <h1>Things I learned</h1>
             <p>• Check the resolution before rendering.<br>
@@ -140,6 +146,7 @@
             
             </p>
         </div>
+    </div>
 </div>
 
 
@@ -154,7 +161,7 @@
 <div class="container">
     <footer>
             <div class="breakupline"></div>
-          
+            <div data-aos="fade-up">
                 <div class="footer-title">
                     <h1>Let's Get in Touch.</h1>
                 </div>
@@ -177,6 +184,7 @@
             <div class="lasttext">
                 <p> Copyright © 2022 Brendan Wong | Designed on Figma and built by hand </p>
             </div>
+            </div>
     </footer>
 </div>
 
@@ -185,6 +193,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/lockbodyscroll.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init(
+    {
+    disable: 'mobile',
+    once: true
+    });
+    </script>
 
 
 
