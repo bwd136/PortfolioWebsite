@@ -99,6 +99,7 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
+    
     margin-bottom: 30px;
 }
 
@@ -112,6 +113,7 @@
     width: 100%;
     padding: 0;
     margin: 0;
+ 
 
     list-style: none;
 
@@ -127,6 +129,7 @@
     height: 20px;
     margin: 0 5px;
     padding: 0;
+    
 
     cursor: pointer;
 }
@@ -188,6 +191,7 @@
 
 
 .slick-slide {
+    padding-bottom: 2rem;
   margin: 0 1rem;
 }
 .slick-list {
