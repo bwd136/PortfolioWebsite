@@ -53,10 +53,8 @@
 {
     font-family: 'slick';
     font-size: 20px;
-    line-height: 1;
-
     opacity: .75;
-    color: red;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -211,6 +209,7 @@
 .slick-next {
     top: 40%;  
     width: 2rem;
+    height: 2rem;
 }
 
 [dir='rtl'] .slick-prev:before, .slick-next:before {   
