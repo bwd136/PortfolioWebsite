@@ -9,6 +9,7 @@ background:black;
 -webkit-transition:opacity 0.5s ease;
 transition:opacity 0.5s ease
 }
+
 .slick-lightbox .slick-loading .slick-list{
 background-color:transparent
 }
@@ -78,7 +79,7 @@ background-color:transparent
 }
 .slick-lightbox-slick-caption{
     margin:10px 0 0;
-    color:white;
+    color:black;
 }
 
 .slick-lightbox-close{
@@ -102,7 +103,7 @@ background-color:transparent
     font-family:"slick";
     font-size:20px;
     line-height:1;
-    color:white;
+    color:black;
     opacity:0.85;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;

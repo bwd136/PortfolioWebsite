@@ -38,6 +38,7 @@
     cursor: hand;
 }
 
+
 .slick-slider .slick-track,
 .slick-slider .slick-list
 {
@@ -88,7 +89,9 @@
 }
 .slick-slide img
 {
+
     display: block;
+    max-width: 100%;
 }
 .slick-slide.slick-loading img
 {

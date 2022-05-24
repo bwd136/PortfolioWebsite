@@ -34,7 +34,7 @@
 	 display: block;
 	 width: 100%;
 	 height: 2px;
-	 background-color: var(--bar-bg, #FFFFFF);
+	 background-color: var(--bar-bg, #FBFAF8);
 	 border-radius: 1px;
 	 transition: all 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
 }
@@ -48,12 +48,12 @@
  .menu-icon.active span:first-of-type, .menu-icon #hamburger:checked + label span:first-of-type {
 	 transform: rotate(45deg);
 	 top: 5px;
-   background-color: var(--bar-bg, #968160);
+   background-color: var(--bar-bg, #BFA97B);
 }
  .menu-icon.active label:last-of-type, .menu-icon #hamburger:checked + label span:last-of-type {
 	 transform: rotate(-45deg);
 	 bottom: 5px;
-   background-color: var(--bar-bg, #968160);
+   background-color: var(--bar-bg, #BFA97B);
 }
  .menu-icon.active:hover span:first-of-type, .menu-icon.active:hover span:last-of-type, .menu-icon:hover #hamburger:checked + label span:first-of-type, .menu-icon:hover #hamburger:checked + label span:last-of-type {
 	 width: 22px;
