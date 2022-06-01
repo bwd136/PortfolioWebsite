@@ -216,6 +216,21 @@ header {
     line-height: 8vh;
 }
 
+.arrow {
+position: absolute;
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  right:50%;
+  left: 50%;
+  top: 90%;
+  border-left: none;
+  border-top: none;
+  border-right: 0.3rem var(--clr-base-500) solid;
+  border-bottom: 0.3rem var(--clr-base-500) solid;
+  transform: rotate(45deg);
+}
+  
 /* short bio section */
 .aboutme {
     display: flex;
