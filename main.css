@@ -221,8 +221,7 @@ position: absolute;
   content: '';
   width: 2rem;
   height: 2rem;
-  right:50%;
-  left: 50%;
+  right: min(6.3vw, 10.3rem);
   top: 90%;
   border-left: none;
   border-top: none;
@@ -607,6 +606,11 @@ footer p {
     .herotext h3 {
         letter-spacing: 0rem;
     }
+    .arrow {
+          width: 1.5rem;
+          height: 1.5rem;
+          right: min(7.5vw, 10.3rem);
+        }
     /* short bio section */
     .aboutme {
         flex-direction: column;
