@@ -66,12 +66,6 @@ html {
     overflow-y: auto;
 }
 
-html.noscroll {
-    width: 100%;
-    position: fixed; 
-    overflow-y: scroll;
-}
-
 body {
     background-color:#FBFAF8; 
 }
