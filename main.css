@@ -157,16 +157,16 @@ header {
     padding-block: min(10vh,2rem);
   }
 .navigation h1 {
-    font-family: avenir;
+    font-family: var(--ff-primary);
     font-weight: 900;
     font-size: var(--fs-xs);
     color: var(--clr-base-100);
   }
   .navigation a {
-    display: block;
-    font-family: causten;
+    font-family: var(--ff-accent);
     font-feature-settings: "aalt";
     font-weight: bold;
+    display: block;
     font-size: var(--fs-l);
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke: 1px var(--clr-base-100);
@@ -201,6 +201,7 @@ header {
 
 .herotext h1 {
     font-size: var(--fs-xl);
+    font-feature-settings: "aalt";
 }
 
 .herotext h3 {
@@ -259,7 +260,8 @@ position: absolute;
 
 .aboutbutton p {
     color: var(--clr-base-900);
-    font-family: causten;
+    font-family: var(--ff-accent);
+    font-feature-settings: "aalt";
     text-align: center;
     font-weight: 600;
     font-size: var(--fs-s);  
@@ -272,6 +274,7 @@ position: absolute;
 /* projects title */
 .texttop h1{
     font-size: var(--fs-xl);
+    font-feature-settings: "aalt";
     color: var(--clr-primary-600);
 }
 
@@ -323,6 +326,7 @@ position: absolute;
 .myhovertext h1 {
     font-size: var(--fs-600);
     color: var(--clr-base-100);
+    font-feature-settings: "aalt";
     margin-bottom: 1rem;
 }
 
@@ -366,7 +370,7 @@ position: absolute;
 }
 
 .FAQ h1 {
-    font-family: causten;
+    font-family: var(--ff-accent);
     font-weight: bold;
     font-size: var(--fs-m);
     margin: 2rem 0;
@@ -433,6 +437,7 @@ position: absolute;
 }
 
 .bigtitle h1 {
+    font-feature-settings: "aalt";
     font-size: var(--fs-600);
 
 }
@@ -454,7 +459,7 @@ position: absolute;
 }
 
 .projectdetails p {
-    font-family: causten;
+    font-family: var(--ff-accent);
     font-weight: normal;
     font-size:var(--fs-100);
     color: var(--clr-base-500);
@@ -551,6 +556,7 @@ iframe {
 
 footer h1{
     font-size: var(--fs-l);
+    font-feature-settings: "aalt";
     color: var(--clr-primary-600);
 }
 
