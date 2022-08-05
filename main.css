@@ -539,7 +539,7 @@ iframe {
 
 .breakupline {
     background-color: var(--clr-base-500);
-    min-height: 0.2rem;
+    min-height: 0.22rem;
 }
 
 .footer-links {
@@ -616,6 +616,8 @@ footer p {
           width: 1.5rem;
           height: 1.5rem;
           right: min(7.5vw, 10.3rem);
+          border-right: 0.25rem var(--clr-base-500) solid;
+          border-bottom: 0.25rem var(--clr-base-500) solid;
         }
     /* short bio section */
     .aboutme {
@@ -635,10 +637,6 @@ footer p {
         width: 100%;
     }
 
-    .myoverlay {
-        opacity: 1;
-        background: linear-gradient(180deg, rgba(100, 100, 100, 0.6) 5%, rgba(111,84,38,0.12) 100%);  
-    }
     /* about page */
     /* text & image */
     .mystory {
