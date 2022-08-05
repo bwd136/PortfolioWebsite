@@ -224,8 +224,14 @@ position: absolute;
   border-bottom: 0.3rem var(--clr-base-500) solid;
   transform: rotate(45deg);
 }
+
   
 /* short bio section */
+
+.filler {
+    height: 2rem;
+}
+
 .aboutme {
     display: flex;
     flex-direction: row;
@@ -627,6 +633,11 @@ footer p {
 
     .aboutbutton {
         width: 100%;
+    }
+
+    .myoverlay {
+        opacity: 1;
+        background: linear-gradient(180deg, rgba(100, 100, 100, 0.6) 5%, rgba(111,84,38,0.12) 100%);  
     }
     /* about page */
     /* text & image */
