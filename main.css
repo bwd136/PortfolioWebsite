@@ -207,8 +207,8 @@ header {
 .herotext h3 {
     font-weight: 200;
     font-size: var(--fs-m);
-    letter-spacing: 0.3rem;
-    line-height: 8vh;
+    letter-spacing: 0.2rem;
+    line-height: 12vh;
 }
 
 .arrow {
@@ -262,6 +262,11 @@ position: absolute;
     color: var(--clr-base-500);
 }
 
+.aboutmetext p span {
+    font-weight: bold;
+    color: var(--clr-primary-600);
+}
+
 .aboutbutton {
     background-color: transparent;
     border: 0.3rem #1b1b1d;
@@ -270,7 +275,7 @@ position: absolute;
     padding: 0 3rem;
     display: inline-block;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .aboutbutton p {
@@ -318,7 +323,8 @@ position: absolute;
 } 
 
 .card:hover{
-    transform: translateY(-1rem);
+    transition-delay: 30ms;
+    transform: translateY(-0.3rem);
 }
 
 .cover {
@@ -338,6 +344,7 @@ position: absolute;
 }
 
 .myoverlay:hover {
+    transition-delay: 30ms;
     opacity: 1;  
 }
 
@@ -373,6 +380,10 @@ position: absolute;
     font-size: var(--fs-200);
 }
 
+.mystory p span {
+    font-weight: bold;
+}
+
 
 /* accordions */
 
@@ -382,7 +393,8 @@ position: absolute;
 
 .line {
     background-color: var(--clr-base-500);
-    min-height: 0.2rem;
+    border-radius: 25px;
+    min-height: 0.22rem;
 }
 
 .FAQ {
@@ -556,6 +568,7 @@ iframe {
 
 .breakupline {
     background-color: var(--clr-base-500);
+    border-radius: 25px;
     min-height: 0.22rem;
 }
 
@@ -627,7 +640,9 @@ footer p {
     /* main page */
     /* hero section */
     .herotext h3 {
+        font-size: var(--fs-m)/0.3;
         letter-spacing: 0rem;
+        line-height: 8vh;
     }
     .arrow {
           width: 1.5rem;
