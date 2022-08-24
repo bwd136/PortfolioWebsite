@@ -340,7 +340,7 @@ position: absolute;
     height: 50vh;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(123, 140, 133, 0.8) 26%, rgba(111,84,38,0.12) 100%);
+    background: linear-gradient(180deg, rgba(95, 95, 95, 0.12) 10%, rgba(72, 91, 83, 0.9) 100%);
 }
 
 .myoverlay:hover {
@@ -349,8 +349,14 @@ position: absolute;
 }
 
 .myhovertext {
-    padding-block: min(50vh, 3rem);
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: min(50vh, 12.5rem);
     padding-inline: min(50vw, 1rem);
+}
+
+.projecttitle {
+flex-direction: column;
 }
 
 .myhovertext h1 {
@@ -364,6 +370,31 @@ position: absolute;
     font-size: var(--fs-400);
     color: var(--clr-base-100);
 }
+
+.enterbutton {
+    margin: 4rem 0 auto auto;
+    padding: 0.1rem 4rem;
+    background-color: transparent;
+    border: 0.3rem var(--clr-base-100);
+    border-style: solid;
+    border-radius: 5rem;
+    border-radius: 5rem;
+   
+}
+
+.enterbutton p {
+    color: var(--clr-base-100);
+    font-family: var(--ff-accent);
+    font-feature-settings: "aalt";
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--fs-s);  
+}
+
+.enterbutton:hover {
+    background-color: var(--clr-primary-200);
+}
+
 
 /* about page */
 /* text & image */
@@ -616,7 +647,7 @@ footer p {
 
 }
 
-@media (max-width:62.5em) {
+@media (max-width:93.75em) {
 :root {
         --fs-50: 0.64rem;
         --fs-100: 1rem;
@@ -651,26 +682,16 @@ footer p {
           border-right: 0.25rem var(--clr-base-500) solid;
           border-bottom: 0.25rem var(--clr-base-500) solid;
         }
-    /* short bio section */
-    .aboutme {
-        flex-direction: column;
-    }
 
-    .aboutme img,
-    .aboutmetext {
-        padding: 1rem 0;
-    }
-
-    .aboutmetext p {
-        font-size: var(--fs-400);
-    }
-
-    .aboutbutton {
-        width: 100%;
-    }
-
+    /* project cards */
     .card:hover{
         transform: translateY(0);
+    }
+    .myoverlay {
+        opacity: 1;
+    }
+    .myhovertext {
+        padding-block: min(50vh, 16rem);
     }
 
     /* about page */
@@ -718,5 +739,38 @@ footer p {
 
     .footer-right {
         margin-right: 5rem;
+    }
+
+    @media (max-width:62.5em) {
+
+        /* short bio section */
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .aboutme img,
+    .aboutmetext {
+        padding: 1rem 0;
+    }
+
+    .aboutmetext p {
+        font-size: var(--fs-400);
+    }
+
+    .aboutbutton {
+        width: 100%;
+    }
+    }
+
+    @media (max-width:46.873rem) {
+        .myhovertext {
+            display: block;
+            padding-block: min(50vh, 15rem);
+            padding-inline: min(50vw, 1rem);
+        }
+
+        .enterbutton {
+            opacity: 0;
+        }
     }
 }
