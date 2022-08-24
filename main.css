@@ -670,11 +670,7 @@ footer p {
 
     /* main page */
     /* hero section */
-    .herotext h3 {
-        font-size: var(--fs-m)/0.3;
-        letter-spacing: 0rem;
-        line-height: 8vh;
-    }
+    
     .arrow {
           width: 1.5rem;
           height: 1.5rem;
@@ -763,6 +759,11 @@ footer p {
     }
 
     @media (max-width:46rem) {
+        .herotext h3 {
+            font-size: var(--fs-m)/0.3;
+            letter-spacing: 0rem;
+            line-height: 8vh;
+        }
         .myhovertext {
             display: block;
             padding-block: min(100vh, 16vh);
