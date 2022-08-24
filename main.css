@@ -351,7 +351,7 @@ position: absolute;
 .myhovertext {
     display: flex;
     flex-wrap: wrap;
-    padding-block: min(50vh, 12.5rem);
+    padding-block: min(50vh, 25vh);
     padding-inline: min(50vw, 1rem);
 }
 
@@ -373,7 +373,7 @@ flex-direction: column;
 
 .enterbutton {
     margin: 4rem 0 auto auto;
-    padding: 0.1rem 4rem;
+    padding: 0.1rem 3.5rem;
     background-color: transparent;
     border: 0.3rem var(--clr-base-100);
     border-style: solid;
@@ -647,7 +647,7 @@ footer p {
 
 }
 
-@media (max-width:93.75em) {
+@media (max-width:90em) {
 :root {
         --fs-50: 0.64rem;
         --fs-100: 1rem;
@@ -691,7 +691,7 @@ footer p {
         opacity: 1;
     }
     .myhovertext {
-        padding-block: min(50vh, 16rem);
+        padding-block: min(100vh, 28vh);
     }
 
     /* about page */
@@ -762,10 +762,10 @@ footer p {
     }
     }
 
-    @media (max-width:46.873rem) {
+    @media (max-width:46rem) {
         .myhovertext {
             display: block;
-            padding-block: min(50vh, 15rem);
+            padding-block: min(100vh, 16vh);
             padding-inline: min(50vw, 1rem);
         }
 
