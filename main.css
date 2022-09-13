@@ -351,8 +351,8 @@ position: absolute;
 .myhovertext {
     display: flex;
     flex-wrap: wrap;
-    padding-block: min(50vh, 25vh);
-    padding-inline: min(50vw, 1rem);
+    margin-block: min(50vh, 25vh);
+    margin-inline: min(50vw, 1rem);
 }
 
 .projecttitle {
@@ -687,7 +687,7 @@ footer p {
         opacity: 1;
     }
     .myhovertext {
-        padding-block: min(100vh, 28vh);
+        margin-block: clamp(10rem, 16rem, 60vh);
     }
 
     /* about page */
@@ -766,8 +766,8 @@ footer p {
         }
         .myhovertext {
             display: block;
-            padding-block: min(100vh, 16vh);
-            padding-inline: min(50vw, 1rem);
+            margin-block: min(100vh, 14vh);
+            margin-inline: min(50vw, 1rem);
         }
 
         .enterbutton {
